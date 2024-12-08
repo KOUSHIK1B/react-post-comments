@@ -1,27 +1,39 @@
-.post { margin: 20px; padding: 20px; border: 1px solid #ccc; }
-.comment { margin-top: 10px; }
-.replies { margin-left: 20px; }
-.reply { color: gray; }
-button { margin-top: 5px; cursor: pointer; }
-
-button {
-  font-size: 14px;
+.post {
+  margin: 20px;
+  padding: 20px;
   font-family: Arial, sans-serif;
-  color: #333;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-button:hover {
-  text-decoration: underline;
-}
-
-p {
-  font-family: Arial, sans-serif;
-  line-height: 1.5;
 }
 
 .comment {
-  margin-bottom: 15px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.comment-header {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.actions span {
+  cursor: pointer;
+}
+
+.replies {
+  margin-left: 20px;
+  border-left: 2px solid #ddd;
+  padding-left: 10px;
+}
+
+.reply {
+  margin: 10px 0;
 }
